@@ -9,12 +9,16 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("CarSelection");
     }
+
     public void backToSelection()
     {
         SceneManager.LoadScene("CarSelection");
+        Time.timeScale = 1;
     }
+
     public void backToMainmenu()
     {
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 1;
     }
 }

@@ -11,7 +11,7 @@ public class ExtraControls : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         leftHeadLight.enabled = false;
         rightHeadLight.enabled = false;
     }
